@@ -4,7 +4,7 @@
 }
 
 .body {
-    background-color: honeydew
+    background-color: azure;
 }
 
 /* header styles */
@@ -14,9 +14,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    box-shadow: 10px 5px 5px lightslategray;
 }
 
 .header-logo img {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
     position: relative;
 }
 
@@ -36,6 +40,15 @@
 /* main content styles */
 .main-content {
     display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.main-content-text h1 {
+    margin: 20px;
+    width: 50%;
+    color: mediumspringgreen;
+    font-size: 80px;
 }
 
 .main-content-img img {
@@ -52,7 +65,7 @@
     position:absolute;
     bottom:0;
     width:100%;
-    height:100px;   /* Height of the footer */
+    height:150px;   /* Height of the footer */
 }
 
 .footer-nav a {
