@@ -12,16 +12,19 @@
     background-color:lightblue;
     color: darkblue;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     box-shadow: 10px 5px 5px lightslategray;
 }
 
 .header-logo img {
-    height: 100px;
-    width: 100px;
-    margin: 20px;
-    position: relative;
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+}
+
+.header-logo img:hover {
+    cursor: pointer;
 }
 
 .header-nav a {
@@ -37,7 +40,7 @@
 /* end of header styles */
 
 
-/* main content styles */
+/* main page styles */
 .main-content {
     display: flex;
     justify-content: center;
@@ -45,16 +48,22 @@
 }
 
 .main-content-text h1 {
-    margin: 20px;
-    width: 50%;
     color: mediumspringgreen;
     font-size: 80px;
+    position: relative;
+    top: 70px;
+    align-items: center;
 }
 
 .main-content-img img {
+    width: 600px;
+    height: 500px;
     position: relative;
+    top: 50px;
+    right: 50px;
+    left: 50px;
 }
-/* end of main content styles */
+/* end of main page styles */
 
 
 /* footer styles */
@@ -71,9 +80,9 @@
 .footer-nav a {
     text-decoration: none;
     margin: 20px;
+    padding-top: 30px;
     font-size: 20px;
     cursor: pointer;
-
 }
 
 .footer-nav a:hover {
