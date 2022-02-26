@@ -3,31 +3,47 @@
     padding: 0;
 }
 
-.body {
-    background-color: tan;
+body {
+    background-color:lightblue;
 }
 
-.container {
-    position: relative;
-    top: 100px;
-    left: 50%;
+.header-items {
+    display: flex;
+    justify-content: center;
 }
 
-.container-title {
+.header-items a {
+    /* display: block; */
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    cursor: pointer;  
+}
+
+.header-items h1 {
     margin: 20px;
     font-size: 25px;
-    color: lightblue;
+    color: #8f7082;  
 }
 
 .container-items {
-    font-size: 20px;
+    display: flex;
+    background-color: lightsteelblue;
+    text-align:center;
+    margin:auto;
+    font-size: 25px;
 }
 
-.container-items ul li {
-    margin: 20px;
-    color: darkblue;
+.destinations {
+    border: solid azure;
 }
 
-.container-items ul li:hover {
-    color: lightblue;
+.adventure {
+    border: solid azure;
+}
+
+.cookie {
+    border: solid azure;
 }
