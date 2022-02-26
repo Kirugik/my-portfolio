@@ -38,7 +38,7 @@ body {
     justify-content: space-around;
     font-size: 20px;
     text-align: center;
-    background-color: blueviolet;
+    background-color: lightskyblue;
 }
 
 .background h4 {
@@ -51,16 +51,17 @@ body {
 .background-info {
     display: flex;
     justify-content: space-between;
-    background-color: chartreuse;
+    background-color: lightblue;
     width: 80%;
     margin: 0 auto;
     padding: 2vw;
-    color: white;
+    color: black;
     line-height: 30px;
 }
 
 .content {
-    border: 1px solid red;
+    border: 1px solid lightskyblue;
+    box-shadow: 5px 10px lightskyblue;
     padding: 2vw;
     font-weight: bold;
 }
@@ -68,6 +69,10 @@ body {
 .content i {
     color: darkblue;
     font-size: 40px;
+}
+
+.content i:hover{
+    color: lightseagreen;
 }
 
 .content h5 {
@@ -96,7 +101,8 @@ body {
 .info {
     font-size: 20px;
     color: black;
-    border: 1px solid purple;
+    border: 1px solid lightskyblue;
+    box-shadow: 5px 10px lightskyblue;
     padding: 2vw;
     line-height: 30px;
 }
@@ -104,6 +110,10 @@ body {
 .info i {
     color: darkblue;
     margin-right: 1vw;
+}
+
+.info i:hover{
+    color: lightseagreen;
 }
 
 .info h5 {
