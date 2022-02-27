@@ -7,6 +7,7 @@ body {
     background-color:lightblue;
 }
 
+/* header items styles */
 .header-items {
     display: flex;
     justify-content: space-around;
@@ -34,7 +35,9 @@ body {
     margin-top: 2vw;
     margin-bottom: 2vw;
 }
+/* end of header items styles */
 
+/* project section styles */
 .container-items {
     display: flex;
     background-color: lightsteelblue;
@@ -87,3 +90,4 @@ body {
     font-size: 40px;
     padding: 1vw;
 }
+/* end of project section styles */

@@ -7,7 +7,7 @@ body {
     background-color: azure;
 }
 
-/* header styles */
+/* landing page header styles */
 .header {
     background-color:lightblue;
     color: darkblue;
@@ -37,10 +37,10 @@ body {
 .header-nav a:hover {
     color: lightseagreen;
 }
-/* end of header styles */
+/* end of landing page header styles */
 
 
-/* main page styles */
+/* landing page main page styles */
 .main-content {
     display: flex;
     justify-content: space-around;
@@ -66,26 +66,18 @@ body {
 }
 
 .main-content-img {
-    /* width: 600px;
-    height: 500px;
-    position: relative;
-    top: 50px;
-    right: 50px;
-    left: 50px; */
-
     background-color: aquamarine;
     width: 70%;
     height: 50vw;
-    background-image: url('images/my-picture.jpg');
+    background-image: url('images/laptop.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: luminosity;
-    clip-path: circle(50% at 50% 50%);
+    clip-path: circle(45% at 50% 50%);
 }
-/* end of main page styles */
+/* end of landing page main page styles */
 
 
-/* footer styles */
+/* landing page footer styles */
 .footer {
     background-color: lightblue;
     display: flex;
@@ -113,4 +105,4 @@ body {
 .footer-nav a:hover {
     color: lightseagreen;
 }
-/* end of footer styles */
+/* end of landing page footer styles */
